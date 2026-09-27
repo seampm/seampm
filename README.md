@@ -1,6 +1,6 @@
 # Peter Seam
 
-Software engineer working close to the metal — C++, systems, and performance. I like understanding things all the way down; when the docs run out, I read the source.
+Software engineer working with C++, systems, and performance. I like understanding everything from low-level code to high level projects.
 
 ## What I've been building
 
