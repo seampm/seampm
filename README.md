@@ -12,6 +12,10 @@ Software engineer working close to the metal — C++, systems, and performance. 
 
 - [Code](https://github.com/seampm/tinytrain) · [Live demo](https://seampm.github.io/tinytrain/)
 
+**tinystore** — a distributed key-value store written from scratch in C++: epoll networking, consistent hashing, async replication, heartbeat failover. 150k ops/sec single-node; a 3-node cluster survives kill -9.
+
+- [Code](https://github.com/seampm/tinystore) · [Live demo](https://seampm.github.io/tinystore/)
+
 **pymatch** — a limit order book matching engine written from scratch in Python: price-time priority matching, an exchange simulator with latency and fees, and an event-driven backtester. 400k orders/sec, 23 tests.
 
 - [Code](https://github.com/seampm/pymatch) · [Live demo](https://seampm.github.io/pymatch/)
