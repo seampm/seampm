@@ -1,11 +1,9 @@
 # Peter Seam
 
-Software engineer. I like understanding systems all the way down — most recently by writing an LLM inference engine from scratch in C++.
+Software engineer working close to the metal — C++, systems, and performance. I like understanding things all the way down; when the docs run out, I read the source.
 
-## 🔧 tinyinfer
+## What I've been building
 
-**[seampm/tinyinfer](https://github.com/seampm/tinyinfer)** — a from-scratch inference engine for Llama models: hand-rolled file parser, BPE tokenizer, AVX2 vector math, int8 quantization. Zero ML dependencies, ~1,700 lines of C++20.
+**tinyinfer** — an LLM inference engine written from scratch in C++: hand-rolled file parser, tokenizer, vector math kernels, and quantization. No frameworks, no copied code. It matches llama.cpp's throughput on a 15M-parameter model.
 
-Benchmarked head-to-head with llama.cpp: **101%** of its throughput on a 15M model, **74%** on a 1.1B model — with the methodology published in the repo.
-
-▶️ **[Try the live demo](https://seampm.github.io/tinyinfer/)** — terminal replay, benchmark charts, architecture walkthrough. No setup required.
+- [Code](https://github.com/seampm/tinyinfer) · [Live demo](https://seampm.github.io/tinyinfer/)
